@@ -10,13 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 1) do
+=======
+ActiveRecord::Schema.define(version: 2) do
+>>>>>>> fda87ac328ae56c64656cb8c427f0b7f811ce903
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
     t.string "genre"
     t.integer "age"
     t.string "hometown"
+<<<<<<< HEAD
+=======
+    t.string "favorite_food"
+>>>>>>> fda87ac328ae56c64656cb8c427f0b7f811ce903
   end
 
 end
